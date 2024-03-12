@@ -1,1 +1,25 @@
-/*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: Minecraft;
+  src: url(../media/font/Minecrafter.Alt.ttf);
+}
+h1,
+.buttons {
+  font-family: Minecraft;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  color: white;
+}
+
+body {
+  background: url(../media/images/backgrounds/deepslate-tiles-background.webp) repeat;
+}
+body main#content section.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
